@@ -3,6 +3,8 @@
 const { contents } = require("cheerio/lib/api/traversing");
 const  puppeteer = require("puppeteer");
 
+
+
 let page;
 (async function fn() {
     let browser = await puppeteer .launch({
